@@ -1,10 +1,13 @@
 package func2;
+
 import intetfaces.*;
 
 public class IntegralFunctional<T extends FunctionOnInterval> implements Functional<T> {
     private final double a, b;
+
     public IntegralFunctional(double a, double b) {
-        this.a = a; this.b = b;
+        this.a = a;
+        this.b = b;
     }
 
     public double calculate(T f) {

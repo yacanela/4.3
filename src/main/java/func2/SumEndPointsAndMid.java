@@ -1,4 +1,5 @@
 package func2;
+
 import intetfaces.*;
 
 public class SumEndPointsAndMid<T extends FunctionOnInterval> implements Functional<T> {
